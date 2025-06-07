@@ -9,10 +9,10 @@ const messageSchema = new mongoose.Schema(
         required:true,
   },
   
-  reciverId:{
-    type:mongoose.Schema.Types.ObjectId,
-    ref:"User",
-    required:true,
+  receiverId: {
+    type: mongoose.Schema.Types.ObjectId,
+    ref: "User",
+    required: true,
   },
   text:{
     type:String,
